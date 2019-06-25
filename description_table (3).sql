@@ -39,7 +39,7 @@ CREATE TABLE `description_table` (
 --
 
 INSERT INTO `description_table` (`Description`, `Dept_id`, `Desc_id`) VALUES
-('UT', 104, 1019),
+('UT', 104, 10419),
 ('Production Rating', 101, 10101),
 ('Production_rating_overall', 101, 10102),
 ('Off spec generation during production', 101, 10103),
