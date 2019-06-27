@@ -176,7 +176,7 @@ INSERT INTO `description_table` (`Description`, `Dept_id`, `Desc_id`, `Unit_of_m
 -- Indexes for table `description_table`
 --
 ALTER TABLE `description_table`
-  ADD PRIMARY KEY (`Desc_id`),
+  ADD PRIMARY KEY (`Desc_id`,`Dept_id`),
   ADD KEY `Dept_id` (`Dept_id`);
 COMMIT;
 
