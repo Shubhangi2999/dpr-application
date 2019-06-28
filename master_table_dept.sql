@@ -47,12 +47,12 @@ INSERT INTO `master_table_dept` (`Department_Name`, `Dept_id`) VALUES
 ('Engineering', 107),
 ('Safety', 108),
 ('Project', 109),
-('Others', 1010),
-('Logistics', 1011),
-('Electrical', 1012),
-('Mechanical', 1013),
-('Instrumentation', 1014),
-('WCM', 1015);
+('Others', 110),
+('Logistics', 111),
+('Electrical', 112),
+('Mechanical', 113),
+('Instrumentation', 114),
+('WCM', 115);
 
 --
 -- Indexes for dumped tables
