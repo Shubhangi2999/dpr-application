@@ -165,7 +165,7 @@
 			    	</td>
 			    	<td colspan="2">
 			    		<select type="text" name="grade">
-			    			<option value="NULL">Do not select if field not applicable</option>
+			    			<option value=" ">Do not select if field not applicable</option>
 			    			<?php 
 			                for($i=0;$i<$grade_count;$i++)
 			                {?>
@@ -181,7 +181,7 @@
 			    	</td>
 			    	<td colspan="2">
 			    		<select type="text" name="applicable_dept">
-			    			<option value="NULL">Do not select if field not applicable</option>  
+			    			<option value=" ">Do not select if field not applicable</option>  
 			                <?php 
 			                for($i=0;$i<$dept_count;$i++)
 			                {
