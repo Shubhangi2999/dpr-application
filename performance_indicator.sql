@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 03, 2019 at 10:25 AM
+-- Generation Time: Jul 08, 2019 at 08:16 AM
 -- Server version: 10.1.35-MariaDB
 -- PHP Version: 7.2.9
 
@@ -289,8 +289,10 @@ CREATE TABLE `transition_table` (
 --
 
 INSERT INTO `transition_table` (`Insertion_Date`, `Entry_date`, `Obtained_value`, `Target_Value`, `Department_Name`, `Desc_id`, `GradeName`, `Remarks`, `Updated by User`, `Status`) VALUES
-('2019-07-03 11:58:58', '2019-07-03', 200, 200, 'Production', 10103, 'N110', 'sdhasdiasd', '', 'Activated'),
-('2019-07-03 11:59:08', '2019-07-03', 200, 200, 'Production', 10103, 'N110', 'sdhasdiasd', '', 'Activated');
+('2019-07-04 09:18:19', '2019-07-01', 5, 2, ' ', 10101, 'N110', 'none', '', 'Deactivated'),
+('2019-07-04 10:29:39', '2019-07-02', 987, 435, ' ', 10101, 'N110', '', '', 'Deactivated'),
+('2019-07-04 10:32:36', '2019-06-05', 86, 86, ' ', 10102, 'N121', '', '', 'Deactivated'),
+('2019-07-08 09:15:51', '2019-07-01', 4, 3, ' ', 10403, 'N134', 'none', '', 'Activated');
 
 -- --------------------------------------------------------
 
