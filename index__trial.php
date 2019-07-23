@@ -1,13 +1,13 @@
 <html>
 	<head>
-		<style>
-			table{
-				font-family: Helvetica;
-			}
-		</style>
+	<style>
+		table{
+			font-family: Helvetica;
+		}
+	</style>
 	<meta charset="UTF-8">
-        <title>DPR DATA ENTRY SYSTEM INDEX</title>
-    </head>
+	<title>DPR DATA ENTRY SYSTEM INDEX</title>
+   	</head>
     <body>
     <center>
     <?php 
@@ -37,10 +37,8 @@
                 <option value="NULL">No department</option>  
                 <?php 
                 for($i=0;$i<$dept_count;$i++)
-                {
-                ?>
-                		<option value="<?php echo $dept_id[$i]?>"><?php echo $dept_name[$i]?></option selected>
-                <?php 
+		{
+                		echo "<option value='".$dept_id[$i]."'>".$dept_name[$i]."</option selected>";
             	}
                 ?>      
             </select>
